@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./public/pray.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Julian Dot Go</title>
+
+    <script type="module" src="./components/header.js"></script>
+    <script type="module" src="./components/ticket.js"></script>
+
+  </head>
+  <body>
+    <div id="app">
+      <x-header></x-header>
+
+      <br>
+      <br>
+
+      <section>
+        <article>
+          <h1>Selamat datang di dunia yang terdistorsi. Di sini, realita hanya ilusi. Berani menjelajah?</h1>
+          
+          <p>Bosan dengan yang mainstream? Saatnya menyelami dunia surealis yang penuh kejutan! Toko kami menawarkan berbagai produk unik dengan estetika weirdcore yang khas. Dari pakaian hingga aksesori, semuanya akan membuatmu tampil beda. Jangan lewatkan kesempatan untuk memiliki koleksi yang akan membuat teman-temanmu terpukau!</p>
+        </article>
+      </section>
+
+      <iframe width="800" src="./index.html" frameborder="0"></iframe>
+
+      <br>
+      <br>
+
+      <section>
+        <x-ticket
+          name="Distorsi Malam Ini" 
+          date="13 Oktober 2024 19.00 WIB"
+          venue="Gudang Kosong, Jakarta Selatan"
+          price="80,000">
+        </x-ticket>
+
+        <x-ticket
+          name="Distorted Dreams" 
+          date="28 November 2023 20.00 WIB"
+          venue="Gudang Kosong, Jakarta Selatan"
+          price="80,000">
+        </x-ticket>
+
+        <x-ticket
+          name="Glitch Fest" 
+          date="7 Oktober 2024 20.00 WIB"
+          venue="Gudang Kosong, Jakarta Selatan"
+          price="80,000">
+        </x-ticket>
+      </section>
+    </div>
+  </body>
+</html>

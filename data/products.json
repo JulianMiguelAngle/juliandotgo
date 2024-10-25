@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Everyone Dies Sweatshirt",
+        "price": 130,
+        "image_cover": "./data/product_image/Everyone Dies Sweatshirt.png"
+    },
+    {
+        "name": "Rotisserie Chicken T-Shirt",
+        "price": 130,
+        "image_cover": "./data/product_image/Rotisserie Chicken T-Shirt.png"
+    },
+    {
+        "name": "My Back Used To Hurt T-Shirt",
+        "price": 130,
+        "image_cover": "./data/product_image/My back used to hurt through all my childhood.png"
+    },
+    {
+        "name": "Last Day On Earth Album",
+        "price": 130,
+        "image_cover": "./data/product_image/Last day on earth album.png"
+    }
+]
